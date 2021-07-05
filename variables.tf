@@ -4,7 +4,7 @@
 variable "aws_region" {
   description = "The AWS region to work in"
   type        = string
-  default     = "us-east-1"
+  default     = "eu-south-1"
 }
 
 variable "tf_project" {
