@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------
 # Project Variables
 #------------------------------------------------------------------------------
-tf_project = "aws-doit"
+tf_project = "doit-dev"
 aws_region = "eu-south-1"
 vpc_id          = "vpc-0f64d1a0c74cfb762"
 #priv_subnet_id  = "subnet-0256a0b6bcb383096"

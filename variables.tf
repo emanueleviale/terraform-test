@@ -10,7 +10,6 @@ variable "aws_region" {
 variable "aws_profile" {
   description = "The AWS profile to use"
   type        = string
-  default     = "aws-doit"
 }
 
 variable "vpc_id" {
