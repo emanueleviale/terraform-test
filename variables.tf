@@ -7,6 +7,12 @@ variable "aws_region" {
   default     = "eu-south-1"
 }
 
+variable "aws_profile" {
+  description = "The AWS profile to use (default file location on ${HOME}/.aws/credentials)"
+  type        = string
+  default     = "aws-doit"
+}
+
 variable "tf_project" {
   description = "The name of the project folder that inputs.tfvars is in"
   type        = string
