@@ -73,7 +73,7 @@ Once you have the skeleton repository checked out, you can update the origin and
     git push -u origin main
 
 ### Configure your AWS credentials file
-Create your credentials file (contains aws_access_key_id, aws_secret_access_key) in path ${HOME}/.aws/credentials and set "doit-dev" as your AWS profile name
+Create your credentials file (contains aws_access_key_id, aws_secret_access_key) in path ${HOME}/.aws/credentials
 
 ### Initialize the Statefile
 In order to avoid the chicken and the egg issue with terraform, we create the S3 storage and DynamoDB using a local statefile, and then once the resources exist we transfer the statefile to S3 bucket.  

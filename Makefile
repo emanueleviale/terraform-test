@@ -13,7 +13,7 @@ stateinit: ## Initializes the bucket and dynamodb for state
 	@terraform init
 
 stateplan: stateinit ## Shows the plan
-	@terraform plan -input=false -refresh=true -var 'tf_project=${PROJECT}'
+	@terraform plan -input=true -refresh=true -var 'tf_project=${PROJECT}'
 
 stateapply: stateinit
 	@terraform apply -input=true -refresh=true -var 'tf_project=${PROJECT}'

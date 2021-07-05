@@ -13,8 +13,8 @@ variable "aws_profile" {
 }
 
 variable "vpc_id" {
-  type        = string
-  default     = ""
+  type    = string
+  default = ""
 }
 
 variable "tf_project" {
