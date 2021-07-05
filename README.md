@@ -66,7 +66,12 @@ Once you have the skeleton repository checked out, you can update the origin and
     git remote add origin git@github.com:<your-name>/<your-repo>.git
     git branch -M main
     git push --set-upstream origin main
-    
+
+### First commit
+    git add .
+    git commit -m "First commit"
+    git push -u origin main
+
 ## Initialize the Statefile
 In order to avoid the chicken and the egg issue with terraform, we create the S3 storage and DynamoDB using a local statefile, and then once the resources exist we transfer the statefile to S3 bucket.  
 
