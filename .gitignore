@@ -5,7 +5,7 @@
 *.tfstate
 *.tfstate.*
 
-projects/doit-dev/*
+projects/doit-dev/inputs.tfvars
 
 backend.tf
 
