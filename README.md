@@ -85,6 +85,6 @@ In order to avoid the chicken and the egg issue with terraform, we create the S3
     make stateplan
     make stateapply
 
-Uncomment the S3 backend in backends.tf file and then run the following command:
+Then, uncomment the S3 backend in backends.tf file. Then run the following command:
 
     make init
