@@ -8,7 +8,7 @@ variable "aws_region" {
 }
 
 variable "aws_profile" {
-  description = "The AWS profile to use (default file location on ${HOME}/.aws/credentials)"
+  description = "The AWS profile to use"
   type        = string
   default     = "aws-doit"
 }
