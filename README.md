@@ -85,6 +85,9 @@ In order to avoid the chicken and the egg issue with terraform, we create the S3
     make stateplan
     make stateapply
 
-Then, uncomment the S3 backend in backends.tf file. Then run the following command:
+Then, copy backend.tf.pre in backend.tf file. Then uncomment S3 backend in backend.tf file and run the following command:
 
+    export AWS_REGION=<your-region>
+    export AWS_ACCESS_KEY_ID=<your_access_key>
+    export AWS_SECRET_ACCESS_KEY=<your_aws_secret_access_key>
     make init
