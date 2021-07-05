@@ -72,9 +72,14 @@ Once you have the skeleton repository checked out, you can update the origin and
     git commit -m "First commit"
     git push -u origin main
 
-## Initialize the Statefile
+### Configure your AWS credentials file
+Create your credentials file (contains aws_access_key_id, aws_secret_access_key) in path ${HOME}/.aws/credentials and set "aws-doit" as your AWS profile name
+
+### Initialize the Statefile
 In order to avoid the chicken and the egg issue with terraform, we create the S3 storage and DynamoDB using a local statefile, and then once the resources exist we transfer the statefile to S3 bucket.  
 
+    mkdir projects/<my_project_name>
+    ...set your vars in inputs.tfvars ...
     export PROJECT=<my_project_name>
     make stateinit
     make stateplan
