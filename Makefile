@@ -1,5 +1,5 @@
 s3_bucket="${PROJECT}-tf"
-key="terraform-skeleton"
+key="terraform-test"
 dynamodb_table="terraform-${PROJECT}-lock"
 region=${AWS_REGION}
 
