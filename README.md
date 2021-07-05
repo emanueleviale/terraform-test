@@ -1,5 +1,7 @@
-# terraform-skeleton
-This repo skeleton was cloned from https://github.com/AustinCloudGuru/terraform-skeleton on 5/5/2021
+# terraform-test
+Very important: the skeleton of this repo was cloned from https://github.com/AustinCloudGuru/terraform-skeleton on 5/5/2021
+
+This README is an extract of the original with some minor changes for cloning
 
 ## Directory Layout
 Contains a directory for all the project variables and Terraform files as well as a Makefile and Jenkinsfile for automation. 
