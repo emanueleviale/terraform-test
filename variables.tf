@@ -13,6 +13,11 @@ variable "aws_profile" {
   default     = "aws-doit"
 }
 
+variable "vpc_id" {
+  type        = string
+  default     = ""
+}
+
 variable "tf_project" {
   description = "The name of the project folder that inputs.tfvars is in"
   type        = string
